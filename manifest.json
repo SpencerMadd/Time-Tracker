@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "TimeTracker",
+  "description": "Keeps you on track to achieve your goals!",
+  "version": "1.0",
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "hello_extensions.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
+
+

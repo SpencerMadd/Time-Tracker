@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>Simple Timer</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+  </head>
+  <div class="window">
+  <body>
+    <h1>Time Tracker</h1> 
+    <div class="tabs">
+      <button id="button1" class="button tab-button active" >Stopwatch</button>
+      <button id="button2" class="button tab-button" >Timer</button>
+      <button id="button3" class="button tab-button" >Pomodoro</button>
+    </div>
+    
+    <div id="tab1" class="tab active">
+      <div id="watch" class="time-text">00:00:00</div>
+      <button id="startButton" class="button stop-Button">Start</button>
+      <button id="stopButton" class="button stop-Button">Stop</button>
+      <button id="resetButton" class="button stop-Button">Reset</button>
+    </div>
+    
+    <div id="tab2" class="tab">
+      <div id="timer" class="time-text">00:00:00</div>
+      <button id="incHrButton" class="button inc-Button">+</button>
+      <button id="decHrButton" class="button inc-Button">-</button>
+      <button id="incMinButton" class="button inc-Button">+</button>
+      <button id="decMinButton" class="button inc-Button">-</button>
+      <button id="incSecButton" class="button inc-Button">+</button>
+      <button id="decSecButton" class="button inc-Button">-</button>
+      <div>
+        <button id="timeStartButton" class="button stop-Button">Start</button>
+        <button id="timeStopButton" class="button stop-Button">Stop</button>
+        <button id="timeResetButton" class="button stop-Button">Reset</button>
+      </div>
+      
+    </div>
+    
+    <div id="tab3" class="tab">
+      <div id="pomoTimer" class="time-text">00:25:00</div>
+      <button id="startButtonPomo" class="button stop-Button">Start</button>
+      <button id="stopButtonPomo" class="button stop-Button">Stop</button>
+      <button id="resetButtonPomo" class=" button stop-Button">Reset</button>
+    </div>
+    
+
+
+  </body>
+</div>
+  <script src="popup.js"></script>
+</html>
